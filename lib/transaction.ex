@@ -62,6 +62,7 @@ defmodule Braintree.Transaction do
           subscription_id: String.t(),
           tax_amount: number,
           tax_exempt: boolean,
+          retrieval_reference_number: String.t(),
           type: String.t(),
           updated_at: String.t(),
           voice_referral_number: String.t()
@@ -114,6 +115,7 @@ defmodule Braintree.Transaction do
             subscription_details: %{},
             subscription_id: nil,
             tax_amount: 0,
+            retrieval_reference_number: nil,
             tax_exempt: false,
             type: nil,
             updated_at: nil,
