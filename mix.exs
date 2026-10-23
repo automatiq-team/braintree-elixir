@@ -53,7 +53,7 @@ defmodule Braintree.Mixfile do
 
   defp deps do
     [
-      {:hackney, "~> 1.15"},
+      {:hackney, "~> 1.15 or ~> 4.0"},
       {:plug, "~> 1.12"},
       {:telemetry, "~> 1.0 or ~> 0.4"},
       {:ex_doc, "~> 0.25", only: [:dev, :test], runtime: false},
